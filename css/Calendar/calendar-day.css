@@ -1,0 +1,92 @@
+.calendarDay{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  position: sticky;
+  inset-block-start: 0;
+  background: var(--white);
+  border-block-end: 1px solid currentColor;
+}
+
+.calendarDay a{
+  color: currentColor;
+  text-decoration: none;
+  outline: none;
+}
+
+.calendarDay a:hover span:nth-of-type(1) {
+  color: var(--blue10);
+}
+
+.calendarDay a:focus span:nth-of-type(1) {
+  color: var(--blue10);
+}
+
+.calendarDay a:hover span:nth-of-type(2) {
+  background:var(--blue10);
+  color:var(--white);
+}
+
+.calendarDay a:focus span:nth-of-type(2) {
+ background: var(--blue10);
+ color:var(--white) ;
+}
+
+
+
+.calendarDay.is-selected a:hover span:nth-of-type(2) {
+  background: var(--blue30);
+  color: var(--white);
+}
+.calendarDay.is-selected a:focus span:nth-of-type(2) {
+  background: var(--blue30);
+}
+
+
+
+
+.calendarDay span:nth-of-type(1){
+  font: var(--body1-regular);
+}
+
+.calendarDay span:nth-of-type(2) {
+ font: var(--subtitle-subtitle1);
+ line-height: 2.75rem;
+ inline-size: 2.75rem;
+ display: inline-block;
+ border-radius: 50%;
+}
+
+
+.calendarDay::before{
+  content: '';
+  inline-size: 1px;
+  block-size: 2rem;
+  background-color: currentColor;
+  position: absolute;
+  inset-inline-start:0;
+  inset-block-end:0 ;
+}
+
+.calendarDay.is-selected span:nth-of-type(1){
+ color: var(--blue10);
+}
+
+.calendarDay.is-selected span:nth-of-type(2){
+ background: var(--blue10);
+ color: var(--white);
+}
+
+.calendarDay.is-daily {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align:center;
+  margin: 0;
+  position: sticky;
+  inset-block-start: 0;
+  background: var(--white);
+}
+
