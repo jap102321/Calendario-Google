@@ -30,6 +30,11 @@ body {
   background:var(--white) ;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .body{
   font: var(--body1-regular);
 }
