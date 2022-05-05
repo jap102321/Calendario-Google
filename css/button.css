@@ -52,7 +52,7 @@ color: var(--blue10);
 }
 
 .button.is-compact {
-border: 1px solid orange;
+
 border-radius: 50%;
 padding: .5rem;
 }

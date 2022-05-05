@@ -9,12 +9,11 @@
 
 .page .header{
   grid-area: header;
- border: 1px solid blue;
 }
 
 .page .sidebar{
   grid-area: sidebar;
-  border: 1px solid purple;
+
 }
 
 .page .calendar{

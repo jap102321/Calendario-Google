@@ -1,0 +1,28 @@
+.header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  border-block-end: 1px solid var(--gray20);
+}
+.header img{
+  vertical-align: middle;
+}
+.header-logo{
+display: flex;
+align-items: center;
+gap: .5rem;
+}
+
+.headerPrimary{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.headerSecondary{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}

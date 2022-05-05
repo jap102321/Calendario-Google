@@ -5,9 +5,8 @@
  padding-inline-end: 2rem;
  border-radius: 4px;
  font: var(--button-button);
-
  appearance: none;
  background-image:url('../icons/Icon=chevron-down.svg');
  background-repeat:no-repeat;
- background-position:right center ;
+ background-position:right .5rem center;
 }

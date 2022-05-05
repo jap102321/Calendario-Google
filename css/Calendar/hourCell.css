@@ -1,13 +1,13 @@
 .hourCell{
-  justify-self: end;
+  justify-self: start;
   align-self: start;
   font: var(--body3-regular);
-  transform: translateY(-50%);
-  padding-inline-end: 1rem;
+  transform: translateY();
+  /* transform: translateX(-110%); */
 }
 
 
-.hourCell::before {
+/* .hourCell::before {
   content: '';
   inline-size: .5rem;
   block-size: 1px;
@@ -15,4 +15,4 @@
   position: absolute;
   inset-inline-end: 0;
   inset-block-end: 50%;
-}
+} */

@@ -11,6 +11,10 @@
   --maxBlockSize:auto;
   --minInlineSize:5rem;
   --maxInlineSize:1fr;
+  --minBlockSizeDay:4rem;
+  --maxBlockSizeDay:auto;
+  --minInlineSizeDay:30rem;
+  --maxInlineSizeDay:70rem;
     padding-inline: 1.5rem;
     position: relative;
 }
@@ -24,5 +28,14 @@
 
 
 .calendar-day{
+  display: grid;
+  grid-template-columns:5% repeat(1, minmax(var(--minInlineSizeDay), var(--maxInlineSizeDay)));
+  grid-template-rows:9rem repeat(25, minmax(var(--minBlockSizeDay), var(--maxBlockSizeDay)));
+  min-block-size:700px;
+}
 
+.calendar-day h2{
+  display: flex;
+  align-items: flex-start;
+  justify-items: flex-start;
 }

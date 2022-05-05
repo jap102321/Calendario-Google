@@ -5,6 +5,15 @@
 @import './Calendar/calendar.css';
 @import './button.css';
 @import './select.css';
+@import './calendarStatus.css';
+@import './header.css';
+@import './miniCalendar.css';
+@import './sidebarContent.css';
+@import './sidebar.css';
+@import './modal.css';
+@import './input.css';
+@import './createTask.css';
+
 
 
 
